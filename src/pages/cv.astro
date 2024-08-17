@@ -5,30 +5,15 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-5xl w-full font-bold">Profile</div>
   </div>
 
-  <div class="mb-10 text-justify">
+  <!-- <div class="mb-10 text-justify">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
     aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
     cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
+  </div>  -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Experience</div>
@@ -36,26 +21,101 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Software Engineer"
+      subtitle="June 2022 to May 2023 at Cloudvirga, Remote, US"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc ml-6 mb-5">
+        <li>
+          Developed and maintained intuitive user interfaces using Angular and
+          React Native with Expo to manage multiple web and mobile projects
+        </li>
+        <li>
+          Implemented interactive mobile-friendly forms with robust validation
+          and error handling, which improved data accuracy by 13%, and reduced
+          invalid login attempts by 7%
+        </li>
+        <li>
+          Streamlined cross-platform mobile development using React Native with
+          Expo, unifying UI/UX for Android and iOS, resulting in a scalable and
+          consistent user experience across both platforms
+        </li>
+        <li>
+          Architected reusable UI components for mobile applications using React
+          Navigation and Tailwind CSS, leveraging Tailwind's utility-first
+          approach for efficient styling and faster development
+        </li>
+        <li>
+          Conducted UI testing across Chrome, Firefox, Microsoft Edge, and
+          iOS/Android devices, identifying and resolving bugs to reduce
+          fix-to-deployment time by 30%
+        </li>
+        <li>
+          Collaborated with cross-functional teams to deliver Cloudvirga’s
+          proprietary loan origination software which streamlined the mortgage
+          application process
+        </li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Support Engineer"
+      subtitle="February 2020 to May 2022 at Blend Labs, San Francisco/Remote, CA, US"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc ml-6 mb-5">
+        <li>
+          Triaged and resolved platform outages, API and CRM integration issues,
+          minimizing platform downtime and ensuring seamless data flow from
+          Blend API platform to clients’ services and CRM instances
+        </li>
+        <li>
+          Directed support engineering team as CRM integration SME, leading the
+          successful migration of customers to a new Salesforce-managed package,
+          training support engineers on migration processes and assisting
+          clients with setup of outbound/inbound connections and key mappings
+        </li>
+        <li>
+          Assisted with escalations of Salesforce and Velocify integration
+          issues within a timely manner
+        </li>
+        <li>
+          Engaged with engineers, project managers, and strategic account
+          managers to resolve high ticket escalations and meet client’s product
+          deadlines and SLA’s
+        </li>
+        <li>
+          Created Mode reports using SQL to query for platform metrics and
+          applications impacted by downtime
+          <ul class="list-disc ml-8 marker:text-indigo-300">
+            <li>
+              Expedited delivery of analytics reporting to enterprise customers
+              for legal compliance and client communications
+            </li>
+            <li>
+              Accelerated analytics reporting for the support team and Blend’s
+              internal teams
+            </li>
+          </ul>
+        </li>
+      </ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Tax Accountant"
+      subtitle="January 2016 to January 2017 at Carion Doty LLP, San Francisco, CA, US"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul class="list-disc ml-6 mb-5">
+        <li>
+          Prepared more than 100 individual tax returns for high-net-worth
+          individuals
+        </li>
+        <li>
+          Collaborated with team to deliver projects to meet and surpass client
+          expectations
+        </li>
+        <li>Analyzed client’s income to anticipate future tax liability</li>
+      </ul>
     </TimeLineElement>
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,27 +126,53 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
-  <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+  <ul class="list-disc md:columns-5 columns-2 mx-6 mb-10">
+    <li>TypeScript</li>
+    <li>JavaScript</li>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Tailwind CSS</li>
+    <li>Node.js/Express</li>
+    <li>SQL</li>
+    <li>Python</li>
+    <li>AWS</li>
+    <li>Cloudflare</li>
+    <li>Next.js</li>
+    <li>React Native</li>
+    <li>React</li>
+    <li>Expo</li>
+    <li>Postgres</li>
+    <li>MySQL</li>
+    <li>MongoDB</li>
+    <li>Redis</li>
+    <li>Postman</li>
+    <li>Git</li>
+    <li>Mode</li>
+    <li>NPM</li>
+    <li>Splunk</li>
+    <li>Docker</li>
+    <li>Nginx</li>
+    <li>Vite</li>
   </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Golden Gate University"
+      subtitle="M.S. in Taxation"
+    />
+    <TimeLineElement
+      title="University of  California, Irvine"
+      subtitle="B.A. in Economics"
+    />
+  </div>
 </BaseLayout>
